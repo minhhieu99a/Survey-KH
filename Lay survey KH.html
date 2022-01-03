@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form khao sat</title>
+    </head>
+<body>
+<form action="http://localhost:63342/Form%20survey%20KH/Thong%20tin%20y%20kien%20KH.html?_ijt=uoe62ue5fcfs80ngntounondaq&_ij_reload=RELOAD_ON_SAVE" method="get">
+    <h1>Market Research Survey</h1>
+    <p>Please take a few moment to complete this satisfaction survey</p>
+    <h5>What is your age range?</h5>
+    <select style="width: 50% ">
+        <option value="age">18-24</option>
+        <option value="age">25-34</option>
+        <option value="age">35-50</option>
+        <option value="age">50+</option>
+    </select>
+    <h5>What is your yearly income range?</h5>
+    <select style="width: 50%">
+        <option value="Price">$0-$25,000</option>
+        <option value="Price">$25,001-$50,000</option>
+        <option value="Price">$50,001-$100,000</option>
+        <option value="Price">$100,000+</option>
+    </select>
+    <h5>Gender Identity</h5>
+    <input type="radio"name="Gender"value="Male">Male
+    <input type="radio"name="Gender"value="Female">Female
+    <h5>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h5>
+    <input type="checkbox"name="Product"value="Product1">Product 1 <br>
+    <input type="checkbox"name="Product"value="Product1">Product 2 <br>
+    <input type="checkbox"name="Product"value="Product1">Product 3
+    <h5>How often would you use our new product?</h5>
+    <input type="radio"name="Frequency"value="Daily">Daily <br>
+    <input type="radio"name="Frequency"value="Weekly">Weekly <br>
+    <input type="radio"name="Frequency"value="Monthly">Monthly <br>
+    <h5>What would you pay for the new product?</h5>
+    $ <input type="text"name="Dollars"size="5"> .
+    <input type="text"name="Cents" style="width: 20px"><br>
+    <table style="width: 11%">
+        <tr >
+         <td>Dollars</td>
+         <td>Cents</td>
+         </tr>
+    </table>
+    <h5>What features would you like to see in the new product ?</h5>
+    <textarea name="Survey" cols="30" rows="10"></textarea>
+    <h5>Please rate your level of agreement with the following statements.</h5>
+    <table border="1" style="width: 50%">
+        <tr>
+            <th> </th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td><h5>Our products are priced fairly</h5></td>
+            <td><input type="radio"name="opinion1"value="Strongly Disagree">1</td>
+            <td><input type="radio"name="opinion1"value="Disagree">2</td>
+            <td><input type="radio"name="opinion1"value="Agree">3</td>
+            <td><input type="radio"name="opinion1"value="Strongly Agree">4</td>
+        </tr>
+        <tr>
+            <td><h5>Our products are high quality</h5></td>
+            <td><input type="radio"name="opinion2"value="Strongly Disagree">1</td>
+            <td><input type="radio"name="opinion2"value="Disagree">2</td>
+            <td><input type="radio"name="opinion2"value="Agree">3</td>
+            <td><input type="radio"name="opinion2"value="Strongly Agree">4</td>
+        </tr>
+        <tr>
+            <td><h5>You would recommend our product to a friend or coworker.</h5></td>
+            <td><input type="radio"name="opinion3"value="Strongly Disagree">1</td>
+            <td><input type="radio"name="opinion3"value="Disagree">2</td>
+            <td><input type="radio"name="opinion3"value="Agree">3</td>
+            <td><input type="radio"name="opinion3"value="Strongly Agree">4</td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
